@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #myBooksDiv {
+            border: 2px solid black;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+        #myBooksDiv p {
+            margin: 20px 30px;
+        }
+    </style>
 </head>
+
 <body>
 
     <div class="container1">
         <div class="title">REGISTRATION BOOKS</div>
+
         <form action="#">
             <div class="bookInfo">
                 <div class="input">
@@ -32,16 +45,19 @@
                 </div>
                 <div class="input">
                     <span class="detalle">
-                        Leido 
+                        Leido
                     </span>
                     <input type="checkbox" id="finished" placeholder="Informacion">
                 </div>
             </div>
             <button class="btn" id="submitBtn">Submit Book</button>
         </form>
+
+        <div id="myBooksDiv"></div>
     </div>
-    
+
 
     <script src="funcs.js"></script>
 </body>
+
 </html>
