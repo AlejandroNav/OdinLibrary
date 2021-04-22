@@ -11,80 +11,20 @@
 
 <body>
     <div id="main-container">
-
         <nav role='navigation' id="container">
             <a href="">ODIN Library</a>
-            <!-- main navigation in here -->
-
             <a href="#0">My Books</a>
             <a href="#0">Add a Book</a>
             <input type="text" name="" id="" placeholder="Search Books">
         </nav>
-        <!-- Here is our page's main content -->
-        <main>
-            <!-- It contains an article -->
-            <article class="card-container">
 
-                <div class="card">
-                    <div class="features">
-                        <ul>
-                            <li> Author <span> Tolkien </span> </li>
-                            <li> Title<span> Lord of the Rings</span> </li>
-                            <li> Pages <span>456</span></li>
-                            <li> Read<span> Yes</span> </li>
-                        </ul>
-                    </div>
-                    <!--/features-->
-                </div>
-                <div class="card">
-                    <div class="features">
-                        <ul>
-                            <li> Author <span> Pratchet</span> </li>
-                            <li> Title<span> Pyramids </span> </li>
-                            <li> Pages <span>46</span></li>
-                            <li> Read<span> Yes</span> </li>
-                        </ul>
-                    </div>
-                    <!--/features-->
-                </div>
-                <div class="card">
-                    <div class="features">
-                        <ul>
-                            <li> Author <span> Tolkien</span> </li>
-                            <li> Title<span> The Hobbit</span> </li>
-                            <li> Pages <span> 56</span></li>
-                            <li> Read<span> Yes</span> </li>
-                        </ul>
-                    </div>
-                    <!--/features-->
-                </div>
-                <div class="card">
-                    <div class="features">
-                        <ul>
-                            <li> Author <span> Tolkien</span> </li>
-                            <li> Title<span> The Hobbit</span> </li>
-                            <li> Pages <span> 56</span></li>
-                            <li> Read<span> Yes</span> </li>
-                        </ul>
-                    </div>
-                    <!--/features-->
-                </div>
-                <div class="card">
-                    <div class="features">
-                        <ul>
-                            <li> Author <span> Tolkien</span> </li>
-                            <li> Title<span> The Hobbit</span> </li>
-                            <li> Pages <span> 56</span></li>
-                            <li> Read<span> Yes</span> </li>
-                        </ul>
-                    </div>
-                    <!--/features-->
-                </div>
+        <main>
+            <article class="card-container">
                 <div class="card" id="formy">
                     <form action="#">
                         <div>
                             <label for="name-input">Book Name</label>
-                            <input type="text" name="" id="name-input">
+                            <input type="text" name="" id="name-input" placeholder="info">
                         </div>
                         <div>
                             <label for="author-input">Author Name</label>
@@ -96,21 +36,19 @@
                         </div>
                         <div>
                             <label for="finish-check">Finished Book</label>
-                            <input type="checkbox" name="" id="finish-chec">
-                            <button type="submit">Submmit</button>
+                            <input type="checkbox" name="" id="finish-check">
+                            <button type="submit" id="submit-input">Submmit</button>
                         </div>
                     </form>
                 </div>
+                <div class="card-container" id="cards-books">
 
+                </div>
+            </article>
+        </main>
     </div>
-    </article>
 
-    </main>
-    <!-- And here is our main footer that is used across all the pages of our website -->
-    <footer>
-        <!-- footer content in here -->
-    </footer>
-    </div>
+    <script src="library.js"></script>
 </body>
 
 </html>
